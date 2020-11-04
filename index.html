@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <style>
+
+        header{
+                /* background-image: url(img/real1.jpg); */
+                background-size: cover;
+                background-position: center;
+                height: 400px;
+                opacity: 0.9 ;
+            }
+            @media screen and (max-width: 670px) {
+                header{
+                    min-height: 400px;
+                }
+            }
+
+            #sp {
+                color: white;
+            }
+            #cards{
+                margin-top: -1%;
+            }
+
+            #about{
+                margin-top: 5rem;
+            }
+
+            #gridd {
+                padding-left: 3%;
+            }
+
+            #chefs{
+                background-image: url(images/cafe.jpg);
+                background-size: cover;
+                background-position: center;
+                margin-top: 3rem;
+                height: 600px;
+            }
+
+            #chef {
+                margin-top: 8%;
+            }
+
+            #blog{
+                margin-top: 4rem;
+            }
+
+            #chef1 {
+                margin-top: 5%;
+            }
+
+            #radius {
+                border-radius: 5rem ;
+            }
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <nav class="black">
+                <div class="container">
+              <div class="nav-wrapper">
+                <a href="#!" class="brand-logo #ff1744 red-text">F<span id="sp">ood</span></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger "><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">SPECIAL</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">CHEF</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+              </div>
+            </div>
+            </nav>
+          </div>
+        
+          <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="images/pool.jpg"> <!-- random image -->
+                
+            </li>
+                <li>
+                  <img src="images/light.jpg"> <!-- random image -->
+                 </li>
+                <li>
+                  <img src="images/tray.jpg"> <!-- random image -->
+                </li>
+          </ul>
+        </div>
+    </header>
+
+    <!--Sidenave structure-->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">SPECIAL</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">MENU</a></li>
+        <li><a href="#">CHEF</a></li>
+        <li><a href="#">CONTACT</a></li>
+    </ul>
+
+    <section id="cards">
+
+        <div class="row container" id="card">
+            <div class="col s12 m4 l4">
+              <div class="card">
+                <div class="card-content">
+                 <Div class="center-align"><a class="btn-floating waves-effect waves-light red"><i class="material-icons center-align">restaurant</i></a></Div> <br/>
+                <span class="card-title center-align">Service 1</span> <br/>
+                   <p>Lorem ipsum dolor sit amet consectetur elit,Adipisicing elit tempor.</p> <br/>
+                <div class="card-action center-align">
+                      <a href="#">Read More</a>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                  <div class="card-content">
+                   <Div class="center-align"><a class="btn-floating waves-effect waves-light red"><i class="material-icons center-align">free_breakfast</i></a></Div> <br/>
+                  <span class="card-title center-align">Service 2</span> <br/>
+                     <p>Lorem ipsum dolor sit amet consectetur elit,Adipisicing elit tempor.</p> <br/>
+                  <div class="card-action center-align">
+                        <a href="#">Read More</a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m4 l4">
+                <div class="card">
+                  <div class="card-content">
+                   <Div class="center-align"><a class="btn-floating waves-effect waves-light red"><i class="material-icons center-align">local_dining</i></a></Div> <br/>
+                  <span class="card-title center-align">Service 3</span> <br/>
+                     <p>Lorem ipsum dolor sit amet consectetur elit,Adipisicing elit tempor.</p> <br/>
+                  <div class="card-action center-align">
+                        <a href="#">Read More</a>
+                  </div>
+                  </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about">  
+        <div class="row container">
+            
+            <div class="col s12 l6">
+                <img src="images/chips.jpg" class="responsive-img" width="100%">
+            </div>
+            <div class="col s12 l6 " id="gridd">
+                <h4>Welcome to Our Baking Website</h4>
+                <p> Donec consequat sapien ut leo cursus rhoncus. Nullam dui mi, vulputate ac metus at, semper varius orci.</p> <p>Nulla accumsan ac elit in congue. Class aptent taciti sociosqu ad litora torquent per conubia.</p>
+            </div>
+        
+        </div> <br/> <hr/>
+
+    </section> 
+    
+
+    <section id="about">  
+        <div class="row container">
+            
+            <div class="col s12 l6 " id="gridd">
+                <h4>Title text goes here in one or two lines</h4>
+                <p> Donec consequat sapien ut leo cursus rhoncus. Nullam dui mi, vulputate ac metus at, semper varius orci.</p> <p>Nulla accumsan ac elit in congue. Class aptent taciti sociosqu ad litora torquent per conubia.</p>
+            </div>
+
+            <div class="col s12 l6">
+                <img src="images/burger.jpg" class="responsive-img" width="100%">
+            </div>
+            
+        
+        </div> 
+
+    </section> 
+
+    <section>
+        <div id="chefs">
+            <div class="row container" >
+                <div class="col s12 m4 l4" id="chef">
+                  <div class="card">
+                    <div class="card-content">
+                     <div class="center-align"><a class=""><img src="images/coffee.jpg" id="radius" width="100%"></a></div> <br/>
+                    <span class="card-title center-align">Service 1</span> <br/>
+                       <p>Itaque earum rerum hic tenetur asap iente delectus rulla accumsan.</p> <br/>
+                    <div class="card-action center-align">
+                          <a href="#">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m4 l4" id="chef">
+                    <div class="card">
+                      <div class="card-content">
+                        <div class="center-align"><a class=""><img src="images/spoons.jpg" id="radius" width="100%"></a></div> <br/>
+                      <span class="card-title center-align">Service 2</span> <br/>
+                         <p>Itaque earum rerum hic tenetur asap iente delectus rulla accumsan.</p> <br/>
+                      <div class="card-action center-align">
+                            <a href="#">Read More</a>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col s12 m4 l4" id="chef">
+                    <div class="card">
+                      <div class="card-content">
+                       <div class="center-align"><a class=""><img src="images/fish.jpg"  width="100%" id="radius"></a></div> <br/>
+                      <span class="card-title center-align">Service 3</span> <br/>
+                         <p>Itaque earum rerum hic tenetur asap iente delectus rulla accumsan.</p> <br/>
+                      <div class="card-action center-align">
+                            <a href="#">Read More</a>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+    
+        </div>
+        
+    </section>
+
+<!--cards-->
+<section>
+    <div class="row container" id="blog">
+        <div class="container center-align"><h4>Our Fresh Blog Posts</h4></div>
+        <div class="col s12 l4" id="chef1"> 
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/ch.jpg">
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                
+                <div class="card-content">
+                  <span class="card-title">Food is Life </span>
+                    <p>Adequate, nutritious, safe food is essential to human survival, but food can also cause or convey risks to health and even life itself.  </p>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div class="col s12 l4" id="chef1">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/dessert.jpg">
+                    
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                
+                <div class="card-content">
+                  <span class="card-title">Food is Life </span>
+                    <p>Adequate, nutritious, safe food is essential to human survival, but food can also cause or convey risks to health and even life itself. </p>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div class="col s12 l4" id="chef1">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/bread.jpg">
+                    
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                
+                <div class="card-content">
+                  <span class="card-title">Food is Life </span>
+                    <p>Adequate, nutritious, safe food is essential to human survival, but food can also cause or convey risks to health and even life itself. </p>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+</section>
+
+<!--parallax-->
+<section id="para" class="section scrollspy">
+    <div class="parallax-container" id="paral" >
+        <div class="parallax">
+            <img src="images/pool.jpg" class="responsive-img"/>
+    </div> <br/>
+</section>
+
+
+<!--gallery-->
+<section>
+    <div>
+        <div class="row container" >
+            <div class="container center-align" id="chef"><h4>Our Gallery</h4></div> <br/>
+            <div class="col s12 m6 l3">
+                <img src="images/spoons.jpg" class="responsive-img" height="300%">
+            </div> 
+
+            <div class="col s12 m6 l3">
+                <img src="images/pool.jpg" class="responsive-img" height="300%">
+            </div>
+            <div class="col s12 m6 l3">
+                <img src="images/bread.jpg" class="responsive-img" height="300%">
+            </div>
+            <div class="col s12 m6 l3">
+                <img src="images/tray.jpg" class="responsive-img" height="300%">
+            </div> <br/>
+            <div class="col s12 m6 l3">
+                <img src="images/burger.jpg" class="responsive-img" height="300%">
+            </div>
+            <div class="col s12 m6 l3">
+                <img src="images/chips.jpg" class="responsive-img" height="300%">
+            </div> 
+            <div class="col s12 m6 l3">
+                <img src="images/light.jpg" class="responsive-img" height="300%">
+            </div> 
+            <div class="col s12 m6 l3">
+                <img src="images/dessert.jpg" class="responsive-img" height="300%">
+            </div>
+            
+    </div>
+    
+</section>
+
+<!--footer-->
+<section id="foot" class="section scrollspy">
+    <footer class="page-footer black darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col s6 m6 l6">
+                    <h5 class="white-text">Summary</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    <p class="grey-text text-lighten-4">we discover ideas, understand the concept, and take these ideas to an extraordinary edge, where this ideas provide beautiful outcome, which is truly unexpected and beneficial in all the ways to our clients.</p>
+
+                </div>
+                <div class="col l4 offset-l2  m6 s12">
+                    <h5 class="white-text">About us</h5>
+                    <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Services</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Summary</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!"></a></li> <br/>
+                    <div class="">
+                        <!-- <li><a class="waves-red waves-light btn social dropbox"><i class="fa fa-google"></i></a></li> -->
+                        <button class="btn btn-small facebook waves-light #01579b light-blue darken-4" data-provider="facebook"><i class="fab fa-facebook-f"></i></button>
+                        <button class="btn btn-small twitter #81d4fa light-blue lighten-3" data-provider="twitter"><i class="fab fa-twitter"></i></button>
+                        <!-- <button class="btn google #d84315 deep-orange darken-3" data-provider="google"><i class="fab fa-google"></i></button> -->
+                        <button class="btn btn-small instagram #ff4081 pink accent-2" data-provider="instagram"><i class="fab fa-instagram"></i></button>
+                        <button class="btn btn-small linkedin #2196f3 blue" data-provider="linkedin"><i class="fab fa-linkedin"></i></button> <br/>         
+                    </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-copyright  black">
+            <p class="grey-text text-lighten-4 container center-align"> © 2020 designed by Green </p>
+        </div>
+    </footer>
+</section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script>
+    // <!--Sidenav-->
+  var elem = document.querySelector('.sidenav');
+  var instance = new M.Sidenav(elem, {});
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(elems, {'indicators' : false});
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.parallax');
+        var instances = M.Parallax.init(elems, {});
+    });
+</script>
+
+</body>
+</html>
