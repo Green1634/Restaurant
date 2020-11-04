@@ -73,11 +73,11 @@
                 <a href="#!" class="brand-logo #ff1744 red-text">F<span id="sp">ood</span></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger "><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#">SPECIAL</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">MENU</a></li>
-                    <li><a href="#">CHEF</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#cards">SPECIAL</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#blog">MENU</a></li>
+                    <li><a href="#menu">CHEF</a></li>
+                    <li><a href="#foot">CONTACT</a></li>
                 </ul>
               </div>
             </div>
@@ -102,14 +102,14 @@
 
     <!--Sidenave structure-->
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="#">SPECIAL</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">CHEF</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a href="#cards">SPECIAL</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#blog">MENU</a></li>
+        <li><a href="#menu">CHEF</a></li>
+        <li><a href="#foot">CONTACT</a></li>
     </ul>
 
-    <section id="cards">
+    <section id="cards" class="section scrollspy">
 
         <div class="row container" id="card">
             <div class="col s12 m4 l4">
@@ -184,7 +184,7 @@
 
     </section> 
 
-    <section>
+    <section id="menu" class="section scrollspy">
         <div id="chefs">
             <div class="row container" >
                 <div class="col s12 m4 l4" id="chef">
@@ -229,7 +229,7 @@
     </section>
 
 <!--cards-->
-<section>
+<section id="blog" class="section scrollspy">
     <div class="row container" id="blog">
         <div class="container center-align"><h4>Our Fresh Blog Posts</h4></div>
         <div class="col s12 l4" id="chef1"> 
@@ -291,7 +291,7 @@
 
 
 <!--gallery-->
-<section>
+<section id="gallery" class="section scrollspy">
     <div>
         <div class="row container" >
             <div class="container center-align" id="chef"><h4>Our Gallery</h4></div> <br/>
@@ -380,6 +380,11 @@
         var elems = document.querySelectorAll('.parallax');
         var instances = M.Parallax.init(elems, {});
     });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.scrollspy');
+        var instances = M.ScrollSpy.init(elems, options);
+    });  
 </script>
 
 </body>
